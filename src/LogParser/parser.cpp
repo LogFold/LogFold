@@ -112,7 +112,6 @@ bool LogParser::parse_template_and_process_dynamic_vars(
                                             template_parts, total_dynamic_vars);
   }
 
-  // 拼接模板部分
 
   templ.reserve(total_len);
   for (const auto &part : template_parts) {
@@ -133,12 +132,13 @@ size_t LogParser::classify_and_process_token(string token, VecS &template_parts,
   for (const auto &pat_re : CLASSIFY_PATTERNS) {
     if (pat_re.match(token)) {
 
-      // 检查是否为数字 token
+
       if (is_numeric(token)) {
         if (token.length() <= 15) {
 
           placeholder_index = token.length() - 1;
-          // 直接存储到基础 token 字典
+
+
           token_manager.get_or_register_token_no_split(token, -1, nullptr,
                                                        nullptr);
         } else {
@@ -146,7 +146,6 @@ size_t LogParser::classify_and_process_token(string token, VecS &template_parts,
           token_manager.simple_var_dict.insert(token);
         }
       } else {
-        // 检查是否包含非字母数字字符
         bool contains_punctuation = false;
         bool has_alnum = false;
         for (auto c : token) {
@@ -163,11 +162,11 @@ size_t LogParser::classify_and_process_token(string token, VecS &template_parts,
           placeholder_index = 15;
           token_manager.simple_var_dict.insert(token);
         } else if (has_alnum) {
-          // 提取字母数字字符
-          // string non_punctuation_chars;
-          // std::copy_if(token.begin(), token.end(),
-          //              std::back_inserter(non_punctuation_chars),
-          //              [](char c) { return std::isalnum(c); });
+
+            // string non_punctuation_chars;
+            // std::copy_if(token.begin(), token.end(),
+            //              std::back_inserter(non_punctuation_chars),
+            //              [](char c) { return std::isalnum(c); });
 
           placeholder_index = 16;
           // 处理动态 token

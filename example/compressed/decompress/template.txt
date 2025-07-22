@@ -1,0 +1,675 @@
+|a| |c| - INFO  |g| - Reading configuration from: |bym|
+|a| |c| - INFO  |g| - Defaulting to majority quorums
+|a| |c| - INFO  |g| - autopurge.snapRetainCount set to <a>
+|a| |c| - INFO  |g| - autopurge.purgeInterval set to <a>
+|a| |c| - INFO  |g| - Purge task is not scheduled.
+|a| |c| - INFO  |g| - Starting quorum peer
+|a| |c| - INFO  |g| - binding to port |h|
+|a| |c| - INFO  |g| - tickTime set to <d>
+|a| |c| - INFO  |g| - minSessionTimeout set to |byn|
+|a| |c| - INFO  |g| - maxSessionTimeout set to |byn|
+|a| |c| - INFO  |g| - initLimit set to <b>
+|a| |c| - INFO  |g| - currentEpoch not found! Creating with a reasonable default of |byo| This should only happen when you are upgrading your installation
+|a| |c| - INFO  |g| - acceptedEpoch not found! Creating with a reasonable default of |byo| This should only happen when you are upgrading your installation
+|a| |c| - INFO  |i| - My election bind port: |h|
+|a| |c| - INFO  |k| - LOOKING
+|a| |c| - INFO  |k| - New election. My id =  |n| proposed |o|
+|a| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |c| - WARN  |q| - Cannot open channel to <a> at election address |r|
+|a| |c| - WARN  |k| - Cannot open channel to <a> at election address |r|
+|a| |c| - INFO  |k| - Notification time out: <c>
+|a| |c| - INFO  |k| - Notification time out: <d>
+|a| |c| - INFO  |k| - Notification time out: <e>
+|a| |c| - INFO  |s| - Received connection request |r|
+|a| |c| - INFO  |k| - FOLLOWING
+|a| |c| - INFO  |k| - TCP NoDelay set to: true
+|a| |c| - INFO  |k| - Server |byp| built on |byq| |t| GMT
+|a| |c| - INFO  |k| - Server |v|
+|a| |c| - INFO  |k| - Server |byr|
+|a| |c| - INFO  |k| - Server environment:java.vendor=Oracle Corporation
+|a| |c| - INFO  |k| - Server |bys|
+|a| |c| - INFO  |k| - Server |byt|
+|a| |c| - INFO  |k| - Server |byu|
+|a| |c| - INFO  |k| - Server |byv|
+|a| |c| - INFO  |k| - Server environment:java.compiler=<NA>
+|a| |c| - INFO  |k| - Server environment:os.name=Linux
+|a| |c| - INFO  |k| - Server |u|
+|a| |c| - INFO  |k| - Server |byw|
+|a| |c| - INFO  |k| - Server environment:user.name=zookeeper
+|a| |c| - INFO  |k| - Server |byx|
+|a| |c| - INFO  |k| - Server |byy|
+|a| |c| - INFO  |k| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|a| |c| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <e>
+|a| |c| - INFO  |k| - Getting a diff from the leader <*>
+|a| |c| - INFO  |k| - Snapshotting: <*> to |w|
+|a| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |d| - INFO  |s| - Received connection request |r|
+|a| |d| - WARN  |x| - Connection broken for id |n| my id = |n| error = 
+|a| |d| - WARN  |x| - Interrupting SendWorker
+|a| |d| - WARN  |x| - Interrupted while waiting for message on queue
+|a| |d| - WARN  |x| - Send worker leaving thread
+|a| |d| - WARN  |k| - Got zxid <*> expected <*>
+|a| |d| - INFO  |z| - Creating new log file: |ab|
+|a| |d| - INFO  |ae| - Accepted socket connection from |r|
+|a| |d| - WARN  |ad| - Connection request from old client |af| will be dropped if server is in r-o mode
+|a| |d| - INFO  |ad| - Client attempting to establish new session at |r|
+|a| |d| - INFO  |y| - Established session <*> with negotiated timeout <e> for client |r|
+|a| |d| - WARN  |ac| - caught end of stream exception
+|a| |d| - INFO  |ac| - Closed socket connection for client |r| which had sessionid <*>
+|a| |d| - INFO  |ad| - Client attempting to renew session <*> at |r|
+|a| |d| - INFO  |ae| - Revalidating client: <*>
+|a| |d| - INFO  |k| - Established session <*> with negotiated timeout <e> for client |r|
+|a| |d| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |d| - WARN  |x| - Exception when using channel: for id <a> my id = <a> error = java.net.SocketException: Broken pipe
+|a| |d| - ERROR |y| - Unexpected Exception: 
+|a| |d| - WARN  |ac| - Exception causing close of session <*> due to java.io.IOException: Connection reset by peer
+|a| |e| - WARN  |ac| - caught end of stream exception
+|a| |e| - INFO  |ac| - Closed socket connection for client |r| which had sessionid <*>
+|a| |e| - INFO  |ae| - Accepted socket connection from |r|
+|a| |e| - WARN  |ad| - Connection request from old client |af| will be dropped if server is in r-o mode
+|a| |e| - INFO  |ad| - Client attempting to establish new session at |r|
+|a| |e| - INFO  |y| - Established session <*> with negotiated timeout <e> for client |r|
+|a| |e| - ERROR |y| - Unexpected Exception: 
+|a| |c| - WARN  |ac| - caught end of stream exception
+|a| |c| - INFO  |ac| - Closed socket connection for client |r| which had sessionid <*>
+|a| |c| - INFO  |ae| - Accepted socket connection from |r|
+|a| |c| - WARN  |ad| - Connection request from old client |af| will be dropped if server is in r-o mode
+|a| |c| - INFO  |ad| - Client attempting to establish new session at |r|
+|a| |c| - INFO  |y| - Established session <*> with negotiated timeout <e> for client |r|
+|a| |c| - INFO  |g| - Reading snapshot |w|
+|a| |c| - INFO  |q| - Have smaller server identifier, so dropping the connection: |ag| |ah|
+|a| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |c| - INFO  |k| - Server |ai|
+|a| |c| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <b>
+|a| |c| - WARN  |k| - Got zxid <*> expected <*>
+|a| |c| - INFO  |z| - Creating new log file: |ab|
+|a| |c| - WARN  |k| - Exception when following the leader
+|a| |c| - WARN  |x| - Connection broken for id |n| my id = |n| error = 
+|a| |c| - INFO  |k| - shutdown called
+|a| |c| - WARN  |x| - Interrupting SendWorker
+|a| |c| - INFO  |k| - Shutting down
+|a| |c| - INFO  |k| - shutting down
+|a| |c| - WARN  |x| - Interrupted while waiting for message on queue
+|a| |c| - WARN  |x| - Send worker leaving thread
+|a| |c| - INFO  |aa| - FollowerRequestProcessor exited loop!
+|a| |c| - INFO  |k| - shutdown of request processor complete
+|a| |c| - INFO  |y| - CommitProcessor exited loop!
+|a| |c| - INFO  |z| - SyncRequestProcessor exited!
+|a| |c| - INFO  |k| - Reading snapshot |w|
+|a| |c| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <c>
+|a| |c| - WARN  |k| - Unexpected exception, |bza| connecting to |r|
+|a| |c| - INFO  |k| - LEADING
+|a| |c| - INFO  |k| - LEADING - LEADER ELECTION TOOK - <e>
+|a| |c| - INFO  |aj| - Follower sid: <a> : info : |al|
+|a| |c| - INFO  |aj| - Synchronizing with Follower sid: <a> |o| |o| |o|
+|a| |c| - INFO  |aj| - Sending DIFF
+|a| |c| - WARN  |ak| - Commiting zxid <*> from |r| not first!
+|a| |c| - WARN  |ak| - First is <*>
+|a| |c| - INFO  |ak| - Have quorum of supporters; starting up and setting last processed zxid: <*>
+|a| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|a| |c| - INFO  |aj| - Sending SNAP
+|a| |c| - INFO  |aj| - Sending snapshot last zxid of peer is <*>  zxid of leader is <*> zxid of db as <*>
+|a| |e| - INFO  |f| - Expiring session |n| timeout of <*> exceeded
+|a| |e| - INFO  |am| |an| - Processed session termination for sessionid: <*>
+|a| |d| - INFO  |f| - Expiring session |n| timeout of <*> exceeded
+|a| |d| - INFO  |am| |an| - Processed session termination for sessionid: <*>
+|a| |e| - INFO  |y| - Closed socket connection for client |r| which had sessionid <*>
+|a| |e| - ERROR |aj| - Unexpected exception causing shutdown while sock still open
+|a| |e| - WARN  |x| - Connection broken for id |n| my id = |n| error = 
+|a| |e| - WARN  |aj| - ******* GOODBYE |r| ********
+|a| |e| - WARN  |x| - Interrupting SendWorker
+|a| |e| - WARN  |x| - Interrupted while waiting for message on queue
+|a| |e| - WARN  |x| - Send worker leaving thread
+|a| |e| - INFO  |k| - Shutting down
+|a| |e| - INFO  |k| - Shutdown called
+|a| |e| - INFO  |k| - shutting down
+|a| |e| - INFO  |j| - exception while shutting down acceptor: java.net.SocketException: Socket closed
+|a| |e| - INFO  |am| |an| - PrepRequestProcessor exited loop!
+|a| |e| - INFO  |ao| - Shutting down
+|a| |e| - INFO  |y| - CommitProcessor exited loop!
+|a| |e| - INFO  |k| - shutdown of request processor complete
+|a| |e| - INFO  |z| - SyncRequestProcessor exited!
+|a| |e| - INFO  |k| - LOOKING
+|a| |e| - INFO  |k| - Reading snapshot |w|
+|a| |e| - INFO  |k| - New election. My id =  |n| proposed |o|
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |e| - INFO  |k| - Notification time out: <c>
+|a| |e| - INFO  |f| - SessionTrackerImpl exited loop!
+|a| |e| - INFO  |k| - Notification time out: <d>
+|a| |e| - WARN  |q| - Cannot open channel to <a> at election address |r|
+|a| |e| - WARN  |k| - Cannot open channel to <a> at election address |r|
+|a| |e| - INFO  |k| - Notification time out: <e>
+|a| |e| - INFO  |s| - Received connection request |r|
+|a| |e| - INFO  |q| - Have smaller server identifier, so dropping the connection: |ag| |ah|
+|a| |e| - INFO  |k| - FOLLOWING
+|a| |e| - INFO  |k| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|a| |e| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <f>
+|a| |e| - WARN  |k| - Unexpected exception, |bza| connecting to |r|
+|a| |e| - INFO  |k| - Getting a diff from the leader <*>
+|a| |e| - INFO  |k| - Snapshotting: <*> to |w|
+|a| |e| - WARN  |k| - Exception when following the leader
+|a| |e| - INFO  |k| - shutdown called
+|a| |e| - INFO  |aa| - FollowerRequestProcessor exited loop!
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |e| - WARN  |k| - Got zxid <*> expected <*>
+|a| |e| - INFO  |g| - Reading configuration from: |bym|
+|a| |e| - INFO  |g| - Defaulting to majority quorums
+|a| |e| - INFO  |g| - autopurge.snapRetainCount set to <a>
+|a| |e| - INFO  |g| - autopurge.purgeInterval set to <a>
+|a| |e| - INFO  |g| - Purge task is not scheduled.
+|a| |e| - INFO  |g| - Starting quorum peer
+|a| |e| - INFO  |g| - binding to port |h|
+|a| |e| - INFO  |g| - tickTime set to <d>
+|a| |e| - INFO  |g| - minSessionTimeout set to |byn|
+|a| |e| - INFO  |g| - maxSessionTimeout set to |byn|
+|a| |e| - INFO  |g| - initLimit set to <b>
+|a| |e| - INFO  |g| - Reading snapshot |w|
+|a| |e| - INFO  |i| - My election bind port: |h|
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |e| - INFO  |k| - TCP NoDelay set to: true
+|a| |e| - INFO  |k| - Server |byp| built on |byq| |t| GMT
+|a| |e| - INFO  |k| - Server |ai|
+|a| |e| - INFO  |k| - Server |byr|
+|a| |e| - INFO  |k| - Server environment:java.vendor=Oracle Corporation
+|a| |e| - INFO  |k| - Server |bys|
+|a| |e| - INFO  |k| - Server |byt|
+|a| |e| - INFO  |k| - Server |byu|
+|a| |e| - INFO  |k| - Server |byv|
+|a| |e| - INFO  |k| - Server environment:java.compiler=<NA>
+|a| |e| - INFO  |k| - Server environment:os.name=Linux
+|a| |e| - INFO  |k| - Server |u|
+|a| |e| - INFO  |k| - Server |byw|
+|a| |e| - INFO  |k| - Server environment:user.name=zookeeper
+|a| |e| - INFO  |k| - Server |byx|
+|a| |e| - INFO  |k| - Server |byy|
+|a| |e| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <b>
+|a| |e| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <d>
+|a| |d| - INFO  |g| - Reading configuration from: |bym|
+|a| |d| - INFO  |g| - Defaulting to majority quorums
+|a| |d| - INFO  |g| - autopurge.snapRetainCount set to <a>
+|a| |d| - INFO  |g| - autopurge.purgeInterval set to <a>
+|a| |d| - INFO  |g| - Purge task is not scheduled.
+|a| |d| - INFO  |g| - Starting quorum peer
+|a| |d| - INFO  |g| - binding to port |h|
+|a| |d| - INFO  |g| - tickTime set to <d>
+|a| |d| - INFO  |g| - minSessionTimeout set to |byn|
+|a| |d| - INFO  |g| - maxSessionTimeout set to |byn|
+|a| |d| - INFO  |g| - initLimit set to <b>
+|a| |d| - INFO  |g| - Reading snapshot |w|
+|a| |d| - INFO  |i| - My election bind port: |h|
+|a| |d| - INFO  |k| - LOOKING
+|a| |d| - INFO  |k| - New election. My id =  |n| proposed |o|
+|a| |d| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |d| - INFO  |q| - Have smaller server identifier, so dropping the connection: |ag| |ah|
+|a| |d| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |d| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|a| |d| - INFO  |k| - FOLLOWING
+|a| |d| - INFO  |k| - TCP NoDelay set to: true
+|a| |d| - INFO  |k| - Server |byp| built on |byq| |t| GMT
+|a| |d| - INFO  |k| - Server |ai|
+|a| |d| - INFO  |k| - Server |byr|
+|a| |d| - INFO  |k| - Server environment:java.vendor=Oracle Corporation
+|a| |d| - INFO  |k| - Server |bys|
+|a| |d| - INFO  |k| - Server |byt|
+|a| |d| - INFO  |k| - Server |byu|
+|a| |d| - INFO  |k| - Server |byv|
+|a| |d| - INFO  |k| - Server environment:java.compiler=<NA>
+|a| |d| - INFO  |k| - Server environment:os.name=Linux
+|a| |d| - INFO  |k| - Server |u|
+|a| |d| - INFO  |k| - Server |byw|
+|a| |d| - INFO  |k| - Server environment:user.name=zookeeper
+|a| |d| - INFO  |k| - Server |byx|
+|a| |d| - INFO  |k| - Server |byy|
+|a| |d| - INFO  |k| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|a| |d| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <b>
+|a| |d| - INFO  |k| - Getting a snapshot from leader
+|a| |d| - INFO  |k| - Snapshotting: <*> to |w|
+|a| |d| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |d| - INFO  |k| - Getting a diff from the leader <*>
+|a| |e| - INFO  |z| - Creating new log file: |ab|
+|b| |e| - INFO  |g| - Reading configuration from: |bym|
+|b| |e| - INFO  |g| - Defaulting to majority quorums
+|b| |e| - INFO  |g| - autopurge.snapRetainCount set to <a>
+|b| |e| - INFO  |g| - autopurge.purgeInterval set to <a>
+|b| |e| - INFO  |g| - Purge task is not scheduled.
+|b| |e| - INFO  |g| - Starting quorum peer
+|b| |e| - INFO  |g| - binding to port |h|
+|b| |e| - INFO  |g| - tickTime set to <d>
+|b| |e| - INFO  |g| - minSessionTimeout set to |byn|
+|b| |e| - INFO  |g| - maxSessionTimeout set to |byn|
+|b| |e| - INFO  |g| - initLimit set to <b>
+|b| |e| - INFO  |g| - Reading snapshot |w|
+|b| |e| - INFO  |i| - My election bind port: |h|
+|b| |e| - INFO  |k| - LOOKING
+|b| |e| - INFO  |k| - New election. My id =  |n| proposed |o|
+|b| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|b| |e| - INFO  |q| - Have smaller server identifier, so dropping the connection: |ag| |ah|
+|b| |e| - INFO  |s| - Received connection request |r|
+|b| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|b| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|b| |e| - INFO  |k| - FOLLOWING
+|b| |e| - INFO  |k| - TCP NoDelay set to: true
+|b| |e| - INFO  |k| - Server |byp| built on |byq| |t| GMT
+|b| |e| - INFO  |k| - Server |ai|
+|b| |e| - INFO  |k| - Server |byr|
+|b| |e| - INFO  |k| - Server environment:java.vendor=Oracle Corporation
+|b| |e| - INFO  |k| - Server |bys|
+|b| |e| - INFO  |k| - Server |byt|
+|b| |e| - INFO  |k| - Server |byu|
+|b| |e| - INFO  |k| - Server |byv|
+|b| |e| - INFO  |k| - Server environment:java.compiler=<NA>
+|b| |e| - INFO  |k| - Server environment:os.name=Linux
+|b| |e| - INFO  |k| - Server |u|
+|b| |e| - INFO  |k| - Server |byw|
+|b| |e| - INFO  |k| - Server environment:user.name=zookeeper
+|b| |e| - INFO  |k| - Server |byx|
+|b| |e| - INFO  |k| - Server |byy|
+|b| |e| - INFO  |k| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|b| |e| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <c>
+|b| |e| - INFO  |k| - Getting a diff from the leader <*>
+|b| |e| - INFO  |k| - Snapshotting: <*> to |w|
+|b| |c| - WARN  |k| - Got zxid <*> expected <*>
+|b| |c| - INFO  |z| - Creating new log file: |ab|
+|b| |c| - INFO  |ae| - Accepted socket connection from |r|
+|b| |c| - WARN  |ad| - Connection request from old client |af| will be dropped if server is in r-o mode
+|b| |c| - INFO  |ad| - Client attempting to establish new session at |r|
+|b| |c| - INFO  |y| - Established session <*> with negotiated timeout <e> for client |r|
+|b| |c| - WARN  |ac| - caught end of stream exception
+|b| |c| - INFO  |ac| - Closed socket connection for client |r| which had sessionid <*>
+|b| |e| - INFO  |ae| - Accepted socket connection from |r|
+|b| |e| - WARN  |ad| - Connection request from old client |af| will be dropped if server is in r-o mode
+|b| |e| - INFO  |ad| - Client attempting to establish new session at |r|
+|b| |e| - INFO  |y| - Established session <*> with negotiated timeout <e> for client |r|
+|b| |e| - WARN  |ac| - caught end of stream exception
+|b| |e| - INFO  |ac| - Closed socket connection for client |r| which had sessionid <*>
+|b| |e| - WARN  |q| - Cannot open channel to <a> at election address |r|
+|b| |e| - INFO  |ad| - Client attempting to renew session <*> at |r|
+|b| |e| - INFO  |ae| - Revalidating client: <*>
+|b| |e| - INFO  |k| - Established session <*> with negotiated timeout <e> for client |r|
+|b| |e| - WARN  |k| - Got zxid <*> expected <*>
+|b| |e| - INFO  |z| - Creating new log file: |ab|
+|b| |e| - WARN  |k| - Cannot open channel to <a> at election address |r|
+|b| |e| - INFO  |k| - Notification time out: <c>
+|b| |e| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <d>
+|b| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|b| |c| - INFO  |ad| - Client attempting to renew session <*> at |r|
+|b| |c| - INFO  |ae| - Revalidating client: <*>
+|b| |c| - WARN  |k| - Exception when following the leader
+|b| |c| - INFO  |k| - shutdown called
+|b| |c| - INFO  |k| - Closed socket connection for client |r| which had sessionid <*>
+|b| |c| - INFO  |k| - Shutting down
+|b| |c| - INFO  |k| - shutting down
+|b| |c| - INFO  |aa| - FollowerRequestProcessor exited loop!
+|b| |c| - INFO  |y| - CommitProcessor exited loop!
+|b| |c| - INFO  |k| - shutdown of request processor complete
+|b| |c| - INFO  |z| - SyncRequestProcessor exited!
+|b| |c| - INFO  |k| - LOOKING
+|b| |c| - INFO  |k| - Reading snapshot |w|
+|b| |c| - INFO  |k| - New election. My id =  |n| proposed |o|
+|b| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|b| |c| - INFO  |k| - Notification time out: <c>
+|b| |c| - INFO  |k| - Notification time out: <d>
+|b| |c| - WARN  |ac| - Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running
+|b| |c| - INFO  |ac| - Closed socket connection for client |r| (no session established for client)
+|b| |c| - INFO  |k| - Notification time out: <e>
+|b| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+|b| |c| - INFO  |k| - FOLLOWING
+|b| |c| - INFO  |k| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|b| |c| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <f>
+|b| |c| - INFO  |k| - Getting a diff from the leader <*>
+|b| |c| - INFO  |k| - Snapshotting: <*> to |w|
+|b| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|b| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|b| |d| - INFO  |ae| - Accepted socket connection from |r|
+|b| |d| - WARN  |ad| - Connection request from old client |af| will be dropped if server is in r-o mode
+|b| |d| - INFO  |ad| - Client attempting to establish new session at |r|
+|b| |d| - INFO  |y| - Established session <*> with negotiated timeout <e> for client |r|
+|b| |d| - WARN  |ac| - caught end of stream exception
+|b| |d| - INFO  |ac| - Closed socket connection for client |r| which had sessionid <*>
+|b| |d| - INFO  |y| - Closed socket connection for client |r| which had sessionid <*>
+|b| |e| - INFO  |y| - Closed socket connection for client |r| which had sessionid <*>
+|b| |e| - INFO  |k| - Notification time out: <d>
+|b| |e| - INFO  |k| - Notification time out: <e>
+|b| |c| - WARN  |k| - Cannot open channel to <a> at election address |r|
+|b| |d| - WARN  |k| - Cannot open channel to <a> at election address |r|
+|b| |d| - INFO  |k| - Notification time out: <e>
+|b| |e| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <h>
+|b| |e| - WARN  |k| - Unexpected exception, |bza| connecting to |r|
+|b| |e| - WARN  |k| - Exception when following the leader
+|b| |e| - WARN  |x| - Connection broken for id |n| my id = |n| error = 
+|b| |e| - INFO  |k| - shutdown called
+|b| |e| - WARN  |x| - Interrupting SendWorker
+|b| |e| - INFO  |k| - Shutting down
+|b| |e| - INFO  |k| - shutting down
+|b| |e| - INFO  |k| - shutdown of request processor complete
+|b| |e| - INFO  |aa| - FollowerRequestProcessor exited loop!
+|b| |e| - INFO  |y| - CommitProcessor exited loop!
+|b| |e| - WARN  |x| - Interrupted while waiting for message on queue
+|b| |e| - WARN  |x| - Send worker leaving thread
+|b| |e| - INFO  |z| - SyncRequestProcessor exited!
+|b| |e| - INFO  |k| - Reading snapshot |w|
+|b| |e| - INFO  |k| - FOLLOWING - LEADER ELECTION TOOK - <f>
+|a| |c| - INFO  |l| - LOOKING
+|a| |c| - INFO  |l| - New election. My id =  |n| proposed |o|
+|a| |c| - INFO  |l| - LEADING
+|a| |c| - INFO  |l| - TCP NoDelay set to: true
+|a| |c| - INFO  |l| - Server |byp| built on |byq| |t| GMT
+|a| |c| - INFO  |l| - Server |v|
+|a| |c| - INFO  |l| - Server |byr|
+|a| |c| - INFO  |l| - Server environment:java.vendor=Oracle Corporation
+|a| |c| - INFO  |l| - Server |bys|
+|a| |c| - INFO  |l| - Server |byt|
+|a| |c| - INFO  |l| - Server |byu|
+|a| |c| - INFO  |l| - Server |byv|
+|a| |c| - INFO  |l| - Server environment:java.compiler=<NA>
+|a| |c| - INFO  |l| - Server environment:os.name=Linux
+|a| |c| - INFO  |l| - Server |u|
+|a| |c| - INFO  |l| - Server |byw|
+|a| |c| - INFO  |l| - Server environment:user.name=zookeeper
+|a| |c| - INFO  |l| - Server |byx|
+|a| |c| - INFO  |l| - Server |byy|
+|a| |c| - INFO  |l| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|a| |c| - INFO  |l| - LEADING - LEADER ELECTION TOOK - <c>
+|a| |c| - INFO  |l| - Snapshotting: <*> to |w|
+|a| |d| - ERROR |aj| - Unexpected exception causing shutdown while sock still open
+|a| |d| - WARN  |aj| - ******* GOODBYE |r| ********
+|a| |d| - INFO  |am| |an| - Got user-level KeeperException when processing |t| type:create |t| |t| |bzb| |bzc| Error |bzd| Error:KeeperErrorCode = NodeExists for |bze|
+|a| |d| - INFO  |am| |an| - Got user-level KeeperException when processing |t| type:create |t| |t| |bzb| |bzc| Error |bzf| Error:KeeperErrorCode = NodeExists for |bzg|
+|a| |d| - INFO  |am| |an| - Got user-level KeeperException when processing |t| type:create |t| |t| |bzb| |bzc| Error |bzh| Error:KeeperErrorCode = NodeExists for |bzi|
+|a| |d| - INFO  |am| |an| - Got user-level KeeperException when processing |t| type:create |t| |t| |bzb| |bzc| Error |bzj| Error:KeeperErrorCode = NodeExists for |bzk|
+|a| |d| - INFO  |ad| - Established session <*> with negotiated timeout <e> for client |r|
+|a| |d| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|a| |d| - INFO  |aj| - Follower sid: <a> : info : |al|
+|a| |d| - INFO  |aj| - Synchronizing with Follower sid: <a> |o| |o| |o|
+|a| |d| - INFO  |aj| - Sending DIFF
+|a| |e| - INFO  |am| |an| - Got user-level KeeperException when processing |t| type:create |t| |t| |bzb| |bzc| Error |bzl| Error:KeeperErrorCode = NodeExists for |bzm|
+|a| |e| - INFO  |am| |an| - Got user-level KeeperException when processing |t| type:create |t| |t| |bzb| |bzc| Error |bzn| Error:KeeperErrorCode = NodeExists for |bzo|
+|a| |e| - INFO  |am| |an| - Got user-level KeeperException when processing |t| type:create |t| |t| |bzb| |bzc| Error |bzp| Error:KeeperErrorCode = NodeExists for |bzq|
+|a| |c| - INFO  |f| - Expiring session |n| timeout of <*> exceeded
+|a| |c| - INFO  |am| |an| - Processed session termination for sessionid: <*>
+|a| |c| - ERROR |aj| - Unexpected exception causing shutdown while sock still open
+|a| |c| - WARN  |aj| - ******* GOODBYE |r| ********
+|a| |c| - INFO  |l| - Notification time out: <c>
+|a| |c| - INFO  |l| - Notification time out: <d>
+|a| |c| - INFO  |l| - FOLLOWING
+|a| |c| - INFO  |l| - Server |ai|
+|a| |c| - INFO  |l| - FOLLOWING - LEADER ELECTION TOOK - <d>
+|a| |c| - INFO  |l| - Getting a diff from the leader <*>
+|a| |c| - WARN  |l| - Got zxid <*> expected <*>
+|a| |e| - INFO  |l| - LOOKING
+|a| |e| - INFO  |l| - New election. My id =  |n| proposed |o|
+|a| |e| - INFO  |l| - Notification time out: <c>
+|a| |e| - INFO  |l| - FOLLOWING
+|a| |e| - INFO  |l| - TCP NoDelay set to: true
+|a| |e| - INFO  |l| - Server |byp| built on |byq| |t| GMT
+|a| |e| - INFO  |l| - Server |ai|
+|a| |e| - INFO  |l| - Server |byr|
+|a| |e| - INFO  |l| - Server environment:java.vendor=Oracle Corporation
+|a| |e| - INFO  |l| - Server |bys|
+|a| |e| - INFO  |l| - Server |byt|
+|a| |e| - INFO  |l| - Server |byu|
+|a| |e| - INFO  |l| - Server |byv|
+|a| |e| - INFO  |l| - Server environment:java.compiler=<NA>
+|a| |e| - INFO  |l| - Server environment:os.name=Linux
+|a| |e| - INFO  |l| - Server |u|
+|a| |e| - INFO  |l| - Server |byw|
+|a| |e| - INFO  |l| - Server environment:user.name=zookeeper
+|a| |e| - INFO  |l| - Server |byx|
+|a| |e| - INFO  |l| - Server |byy|
+|a| |e| - INFO  |l| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|a| |e| - INFO  |l| - FOLLOWING - LEADER ELECTION TOOK - <d>
+|a| |e| - INFO  |l| - Getting a diff from the leader <*>
+|a| |e| - INFO  |l| - Snapshotting: <*> to |w|
+|a| |e| - INFO  |l| - Notification time out: <d>
+|a| |e| - INFO  |l| - LEADING
+|a| |e| - INFO  |l| - LEADING - LEADER ELECTION TOOK - <d>
+|a| |e| - INFO  |l| - Reading snapshot |w|
+|a| |e| - INFO  |aj| - Follower sid: <a> : info : |al|
+|a| |e| - INFO  |aj| - Synchronizing with Follower sid: <a> |o| |o| |o|
+|a| |e| - INFO  |aj| - Sending DIFF
+|a| |e| - WARN  |ak| - Commiting zxid <*> from |r| not first!
+|a| |e| - WARN  |ak| - First is <*>
+|a| |e| - INFO  |ak| - Have quorum of supporters; starting up and setting last processed zxid: <*>
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|a| |e| - WARN  |x| - Exception when using channel: for id <a> my id = <a> error = java.net.SocketException: Broken pipe
+|a| |e| - INFO  |aj| - Sending SNAP
+|a| |e| - INFO  |aj| - Sending snapshot last zxid of peer is <*>  zxid of leader is <*> zxid of db as <*>
+|a| |e| - WARN  |l| - Cannot open channel to <a> at election address |r|
+|a| |e| - INFO  |l| - LEADING - LEADER ELECTION TOOK - <e>
+|a| |d| - INFO  |aj| - Sending SNAP
+|a| |d| - INFO  |aj| - Sending snapshot last zxid of peer is <*>  zxid of leader is <*> zxid of db as <*>
+|b| |e| - INFO  |l| - LOOKING
+|b| |e| - INFO  |l| - New election. My id =  |n| proposed |o|
+|b| |e| - WARN  |l| - Cannot open channel to <a> at election address |r|
+|b| |e| - INFO  |l| - Notification time out: <c>
+|b| |e| - INFO  |l| - Notification time out: <d>
+|b| |e| - INFO  |l| - FOLLOWING
+|b| |e| - INFO  |l| - TCP NoDelay set to: true
+|b| |e| - INFO  |l| - Server |byp| built on |byq| |t| GMT
+|b| |e| - INFO  |l| - Server |ai|
+|b| |e| - INFO  |l| - Server |byr|
+|b| |e| - INFO  |l| - Server environment:java.vendor=Oracle Corporation
+|b| |e| - INFO  |l| - Server |bys|
+|b| |e| - INFO  |l| - Server |byt|
+|b| |e| - INFO  |l| - Server |byu|
+|b| |e| - INFO  |l| - Server |byv|
+|b| |e| - INFO  |l| - Server environment:java.compiler=<NA>
+|b| |e| - INFO  |l| - Server environment:os.name=Linux
+|b| |e| - INFO  |l| - Server |u|
+|b| |e| - INFO  |l| - Server |byw|
+|b| |e| - INFO  |l| - Server environment:user.name=zookeeper
+|b| |e| - INFO  |l| - Server |byx|
+|b| |e| - INFO  |l| - Server |byy|
+|b| |e| - INFO  |l| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|b| |e| - INFO  |l| - FOLLOWING - LEADER ELECTION TOOK - <e>
+|b| |e| - INFO  |l| - Getting a diff from the leader <*>
+|b| |e| - INFO  |l| - Snapshotting: <*> to |w|
+|b| |c| - WARN  |l| - Got zxid <*> expected <*>
+|b| |e| - INFO  |l| - FOLLOWING - LEADER ELECTION TOOK - <c>
+|b| |e| - INFO  |l| - Established session <*> with negotiated timeout <e> for client |r|
+|b| |e| - WARN  |l| - Got zxid <*> expected <*>
+|b| |e| - WARN  |l| - Unexpected exception, |bza| connecting to |r|
+|b| |e| - INFO  |l| - LEADING
+|b| |e| - INFO  |l| - LEADING - LEADER ELECTION TOOK - <d>
+|b| |e| - INFO  |l| - Reading snapshot |w|
+|b| |e| - INFO  |aj| - Follower sid: <a> : info : |al|
+|b| |e| - INFO  |aj| - Synchronizing with Follower sid: <a> |o| |o| |o|
+|b| |e| - INFO  |aj| - Sending DIFF
+|b| |e| - WARN  |ak| - Commiting zxid <*> from |r| not first!
+|b| |e| - WARN  |ak| - First is <*>
+|b| |e| - INFO  |ak| - Have quorum of supporters; starting up and setting last processed zxid: <*>
+|b| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|b| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|b| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|b| |e| - INFO  |f| - Expiring session |n| timeout of <*> exceeded
+|b| |e| - INFO  |am| |an| - Processed session termination for sessionid: <*>
+|b| |c| - INFO  |ad| - Established session <*> with negotiated timeout <e> for client |r|
+|b| |c| - INFO  |f| - Expiring session |n| timeout of <*> exceeded
+|b| |c| - INFO  |am| |an| - Processed session termination for sessionid: <*>
+|b| |c| - ERROR |aj| - Unexpected exception causing shutdown while sock still open
+|b| |c| - WARN  |aj| - ******* GOODBYE |r| ********
+|b| |c| - INFO  |l| - Shutting down
+|b| |c| - INFO  |l| - Shutdown called
+|b| |c| - INFO  |j| - exception while shutting down acceptor: java.net.SocketException: Socket closed
+|b| |c| - INFO  |l| - Closed socket connection for client |r| which had sessionid <*>
+|b| |c| - INFO  |l| - shutting down
+|b| |c| - INFO  |am| |an| - PrepRequestProcessor exited loop!
+|b| |c| - INFO  |ao| - Shutting down
+|b| |c| - INFO  |l| - shutdown of request processor complete
+|b| |c| - INFO  |l| - LOOKING
+|b| |c| - INFO  |l| - Reading snapshot |w|
+|b| |c| - INFO  |l| - New election. My id =  |n| proposed |o|
+|b| |c| - INFO  |l| - Notification time out: <c>
+|b| |c| - INFO  |f| - SessionTrackerImpl exited loop!
+|b| |c| - INFO  |l| - Notification time out: <d>
+|b| |c| - INFO  |l| - Notification time out: <e>
+|b| |c| - INFO  |l| - LEADING
+|b| |c| - INFO  |l| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|b| |c| - INFO  |l| - LEADING - LEADER ELECTION TOOK - <f>
+|b| |c| - INFO  |l| - Snapshotting: <*> to |w|
+|b| |c| - INFO  |aj| - Follower sid: <a> : info : |al|
+|b| |c| - INFO  |aj| - Synchronizing with Follower sid: <a> |o| |o| |o|
+|b| |c| - INFO  |aj| - Sending DIFF
+|b| |c| - WARN  |ak| - Commiting zxid <*> from |r| not first!
+|b| |c| - WARN  |ak| - First is <*>
+|b| |c| - INFO  |ak| - Have quorum of supporters; starting up and setting last processed zxid: <*>
+|b| |c| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <a> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+|b| |d| - INFO  |f| - Expiring session |n| timeout of <*> exceeded
+|b| |d| - INFO  |am| |an| - Processed session termination for sessionid: <*>
+|b| |e| - INFO  |l| - LEADING - LEADER ELECTION TOOK - <c>
+|b| |e| - INFO  |l| - Getting a snapshot from leader
+|a| |c| - INFO  |m| - LOOKING
+|a| |c| - INFO  |m| - New election. My id =  |n| proposed |o|
+|a| |c| - INFO  |m| - Notification time out: <c>
+|a| |c| - INFO  |m| - Notification time out: <d>
+|a| |c| - INFO  |m| - Notification time out: <e>
+|a| |c| - INFO  |m| - FOLLOWING
+|a| |c| - INFO  |m| - TCP NoDelay set to: true
+|a| |c| - INFO  |m| - Server |byp| built on |byq| |t| GMT
+|a| |c| - INFO  |m| - Server |v|
+|a| |c| - INFO  |m| - Server |byr|
+|a| |c| - INFO  |m| - Server environment:java.vendor=Oracle Corporation
+|a| |c| - INFO  |m| - Server |bys|
+|a| |c| - INFO  |m| - Server |byt|
+|a| |c| - INFO  |m| - Server |byu|
+|a| |c| - INFO  |m| - Server |byv|
+|a| |c| - INFO  |m| - Server environment:java.compiler=<NA>
+|a| |c| - INFO  |m| - Server environment:os.name=Linux
+|a| |c| - INFO  |m| - Server |u|
+|a| |c| - INFO  |m| - Server |byw|
+|a| |c| - INFO  |m| - Server environment:user.name=zookeeper
+|a| |c| - INFO  |m| - Server |byx|
+|a| |c| - INFO  |m| - Server |byy|
+|a| |c| - INFO  |m| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|a| |c| - INFO  |m| - FOLLOWING - LEADER ELECTION TOOK - <f>
+|a| |c| - INFO  |m| - Getting a snapshot from leader
+|a| |c| - INFO  |m| - Snapshotting: <*> to |w|
+|a| |d| - WARN  |m| - Got zxid <*> expected <*>
+|a| |d| - WARN  |m| - Exception when following the leader
+|a| |d| - INFO  |m| - shutdown called
+|a| |d| - INFO  |m| - Closed socket connection for client |r| which had sessionid <*>
+|a| |d| - INFO  |m| - Shutting down
+|a| |d| - INFO  |m| - shutting down
+|a| |d| - INFO  |aa| - FollowerRequestProcessor exited loop!
+|a| |d| - INFO  |y| - CommitProcessor exited loop!
+|a| |d| - INFO  |m| - shutdown of request processor complete
+|a| |d| - INFO  |z| - SyncRequestProcessor exited!
+|a| |d| - INFO  |m| - LOOKING
+|a| |d| - INFO  |m| - Reading snapshot |w|
+|a| |d| - INFO  |m| - New election. My id =  |n| proposed |o|
+|a| |d| - INFO  |m| - Notification time out: <c>
+|a| |d| - INFO  |m| - Notification time out: <d>
+|a| |d| - WARN  |ac| - Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running
+|a| |d| - INFO  |ac| - Closed socket connection for client |r| (no session established for client)
+|a| |d| - INFO  |m| - Notification time out: <e>
+|a| |d| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |d| - INFO  |m| - FOLLOWING
+|a| |d| - INFO  |m| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|a| |d| - INFO  |m| - FOLLOWING - LEADER ELECTION TOOK - <f>
+|a| |d| - INFO  |m| - Getting a diff from the leader <*>
+|a| |d| - INFO  |m| - Snapshotting: <*> to |w|
+|a| |c| - ERROR |y| - Unexpected Exception: 
+|a| |c| - WARN  |m| - Exception when following the leader
+|a| |c| - INFO  |m| - shutdown called
+|a| |c| - INFO  |m| - Shutting down
+|a| |c| - INFO  |m| - shutting down
+|a| |c| - INFO  |m| - shutdown of request processor complete
+|a| |c| - INFO  |m| - Reading snapshot |w|
+|a| |c| - INFO  |m| - LEADING
+|a| |c| - INFO  |m| - LEADING - LEADER ELECTION TOOK - <c>
+|a| |c| - INFO  |m| - Server |ai|
+|a| |c| - INFO  |m| - FOLLOWING - LEADER ELECTION TOOK - <b>
+|a| |c| - WARN  |m| - Got zxid <*> expected <*>
+|a| |e| - INFO  |m| - LOOKING
+|a| |e| - INFO  |m| - New election. My id =  |n| proposed |o|
+|a| |e| - INFO  |m| - Notification time out: <c>
+|a| |e| - INFO  |m| - Notification time out: <d>
+|a| |e| - INFO  |m| - LEADING
+|a| |e| - INFO  |m| - TCP NoDelay set to: true
+|a| |e| - INFO  |m| - Server |byp| built on |byq| |t| GMT
+|a| |e| - INFO  |m| - Server |ai|
+|a| |e| - INFO  |m| - Server |byr|
+|a| |e| - INFO  |m| - Server environment:java.vendor=Oracle Corporation
+|a| |e| - INFO  |m| - Server |bys|
+|a| |e| - INFO  |m| - Server |byt|
+|a| |e| - INFO  |m| - Server |byu|
+|a| |e| - INFO  |m| - Server |byv|
+|a| |e| - INFO  |m| - Server environment:java.compiler=<NA>
+|a| |e| - INFO  |m| - Server environment:os.name=Linux
+|a| |e| - INFO  |m| - Server |u|
+|a| |e| - INFO  |m| - Server |byw|
+|a| |e| - INFO  |m| - Server environment:user.name=zookeeper
+|a| |e| - INFO  |m| - Server |byx|
+|a| |e| - INFO  |m| - Server |byy|
+|a| |e| - INFO  |m| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|a| |e| - INFO  |m| - LEADING - LEADER ELECTION TOOK - <d>
+|a| |e| - INFO  |m| - Reading snapshot |w|
+|a| |e| - INFO  |m| - Snapshotting: <*> to |w|
+|a| |e| - INFO  |m| - FOLLOWING
+|a| |e| - INFO  |p| - Notification: <a> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <a> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+|a| |e| - INFO  |m| - FOLLOWING - LEADER ELECTION TOOK - <d>
+|a| |e| - INFO  |m| - Getting a snapshot from leader
+|a| |e| - WARN  |m| - Got zxid <*> expected <*>
+|a| |e| - INFO  |m| - FOLLOWING - LEADER ELECTION TOOK - <b>
+|a| |e| - INFO  |m| - Getting a diff from the leader <*>
+|b| |e| - INFO  |m| - LOOKING
+|b| |e| - INFO  |m| - New election. My id =  |n| proposed |o|
+|b| |e| - INFO  |m| - LEADING
+|b| |e| - INFO  |m| - TCP NoDelay set to: true
+|b| |e| - INFO  |m| - Server |byp| built on |byq| |t| GMT
+|b| |e| - INFO  |m| - Server |ai|
+|b| |e| - INFO  |m| - Server |byr|
+|b| |e| - INFO  |m| - Server environment:java.vendor=Oracle Corporation
+|b| |e| - INFO  |m| - Server |bys|
+|b| |e| - INFO  |m| - Server |byt|
+|b| |e| - INFO  |m| - Server |byu|
+|b| |e| - INFO  |m| - Server |byv|
+|b| |e| - INFO  |m| - Server environment:java.compiler=<NA>
+|b| |e| - INFO  |m| - Server environment:os.name=Linux
+|b| |e| - INFO  |m| - Server |u|
+|b| |e| - INFO  |m| - Server |byw|
+|b| |e| - INFO  |m| - Server environment:user.name=zookeeper
+|b| |e| - INFO  |m| - Server |byx|
+|b| |e| - INFO  |m| - Server |byy|
+|b| |e| - INFO  |m| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|b| |e| - INFO  |m| - LEADING - LEADER ELECTION TOOK - <c>
+|b| |e| - INFO  |m| - Reading snapshot |w|
+|b| |e| - INFO  |m| - Snapshotting: <*> to |w|
+|b| |e| - INFO  |ad| - Established session <*> with negotiated timeout <e> for client |r|
+|b| |e| - INFO  |m| - FOLLOWING
+|b| |e| - INFO  |m| - FOLLOWING - LEADER ELECTION TOOK - <b>
+|b| |e| - INFO  |m| - Getting a diff from the leader <*>
+|b| |e| - WARN  |m| - Got zxid <*> expected <*>
+|b| |c| - WARN  |m| - Exception when following the leader
+|b| |c| - INFO  |m| - shutdown called
+|b| |c| - INFO  |m| - Closed socket connection for client |r| which had sessionid <*>
+|b| |c| - INFO  |m| - Shutting down
+|b| |c| - INFO  |m| - shutting down
+|b| |c| - INFO  |m| - shutdown of request processor complete
+|b| |c| - INFO  |m| - LOOKING
+|b| |c| - INFO  |m| - Reading snapshot |w|
+|b| |c| - INFO  |m| - New election. My id =  |n| proposed |o|
+|b| |c| - INFO  |m| - Notification time out: <c>
+|b| |c| - INFO  |m| - Notification time out: <d>
+|b| |c| - INFO  |m| - Notification time out: <e>
+|b| |c| - INFO  |m| - FOLLOWING
+|b| |c| - INFO  |m| - Created server with tickTime <d> minSessionTimeout <d> maxSessionTimeout <e> datadir |byz| snapdir |byz|
+|b| |c| - INFO  |m| - FOLLOWING - LEADER ELECTION TOOK - <f>
+|b| |c| - INFO  |m| - Getting a diff from the leader <*>
+|b| |c| - WARN  |m| - Got zxid <*> expected <*>
+|b| |c| - INFO  |m| - Snapshotting: <*> to |w|
+|b| |c| - ERROR |y| - Unexpected Exception: 
+|b| |e| - WARN  |m| - Exception when following the leader
+|b| |e| - INFO  |m| - shutdown called
+|b| |e| - INFO  |m| - Shutting down
+|b| |e| - INFO  |m| - shutting down
+|b| |e| - INFO  |m| - shutdown of request processor complete
+|b| |e| - INFO  |aj| - Sending SNAP
+|b| |e| - INFO  |aj| - Sending snapshot last zxid of peer is <*>  zxid of leader is <*> zxid of db as <*>
