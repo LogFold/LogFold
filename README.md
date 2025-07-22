@@ -93,3 +93,7 @@ python3 replace_length_vars.py template_new_restored.txt ./
 python3 2new_decode_and_decompress_matrix.py template_new_restored_replaced.txt ./ final.out
 ```
 The `final.out` is the decompressed logs.
+
+# example logs
+[preprocessed files of example los](./example/) are showsing the preprocessed files produced by LogFold. 
+And [decompression results](./example/compressed/decompress/) is shown.
